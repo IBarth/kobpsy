@@ -21,6 +21,7 @@
 		<module>textStructure</module>
 		<module>annotation-ncbo</module>
 		<module>annotation-common</module>
+		<module>nlpPreprocessor</module>
 	</modules>
 	<build>
 		<pluginManagement>
