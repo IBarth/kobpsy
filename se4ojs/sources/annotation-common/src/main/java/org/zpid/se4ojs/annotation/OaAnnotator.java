@@ -29,6 +29,7 @@ import org.zpid.se4ojs.textStructure.bo.BOParagraph;
 import org.zpid.se4ojs.textStructure.bo.BOSection;
 import org.zpid.se4ojs.textStructure.bo.BOStructureElement;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.hp.hpl.jena.vocabulary.XSD;
 
 /**
@@ -194,9 +195,10 @@ public abstract class OaAnnotator {
 	 * @param model the RDF2Go model
 	 * @param text the text to annotate
 	 * @param subElementUri the ID of the text structure element that contains the passed in text 
+	 * @return 
 	 * @throws Exception
 	 */
-	public abstract void annotateText(Model model, String text, String subElementUri) throws Exception;
+	public abstract Object annotateText(Model model, String text, String subElementUri) throws Exception;
 
 	public String getArticleUri() {
 		return articleUri;
