@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.node.JsonNodeType;
 public class NcboAnnotator extends OaAnnotator{
 	
 	static final String REST_URL = "http://data.bioontology.org"; 
-	static final ObjectMapper mapper = new ObjectMapper();
+	static final ObjectMapper MAPPER = new ObjectMapper();
 	private static final String NCBO_ANNOTATOR_URL = "http://bioportal.bioontology.org/annotator";
 	
 	/** 
@@ -66,24 +66,35 @@ public class NcboAnnotator extends OaAnnotator{
 	 *  The results from calling this tool are used create the RDF-representations of the annotations.
 	 */
 	@Override
-	public void annotateText(Model model, String text,
+	public JsonNode annotateText(Model model, String text,
 			String subElementUri) throws UnsupportedEncodingException  {
-		StringBuilder urlParameters = new StringBuilder();
-		JsonNode results;
-		//FIXME externalize url parameters as configurable properties
-		urlParameters.append("include=prefLabel,synonym,definition");
-		urlParameters.append("&text=").append(URLEncoder.encode(text, "ISO-8859-1"));
-		urlParameters.append("require_exact_match=true");
-		urlParameters.append(createUrlParameterForOntologies());
-		results = jsonToNode(post(REST_URL + "/annotator", urlParameters.toString()));
+		JsonNode results = callAnnotator(text);
 		if (results != null) {
 			rdfizeAnnotations(model, results, subElementUri);	
 		} else {
 			log.error("NCBOAnnotator: Results are null!. : Text: " + text);
 		}
+		return results;
 	}
 
-    private String createUrlParameterForOntologies() {
+	public JsonNode callAnnotator(String text) throws UnsupportedEncodingException {
+		StringBuilder urlParameters = new StringBuilder();
+		JsonNode results;
+		//FIXME externalize url parameters as configurable properties
+		urlParameters.append("include=prefLabel,synonym,definition");
+		urlParameters.append("&text=").append(URLEncoder.encode(text, "ISO-8859-1"));
+		urlParameters.append("&expand_semantic_types_hierarchy=true");
+		urlParameters.append("&class_hierarchy_max_level=1");
+		//TODO make "exact match" param configurable
+		urlParameters.append("&minimum_match_length=3");
+		urlParameters.append("&require_exact_match=false");
+		urlParameters.append(createUrlParameterForOntologies());
+		results = jsonToNode(post(REST_URL + "/annotator", urlParameters.toString()));
+		return results;
+	}
+
+
+	private String createUrlParameterForOntologies() {
     	return new StringBuilder("&ontologies=").append(ontologies).toString();
     }
 
@@ -95,7 +106,7 @@ public class NcboAnnotator extends OaAnnotator{
      * @param results the results of the concept mapping
      * @param textStructElementUri the ID of the text structure element whose text is being annotated
      */
-	private void rdfizeAnnotations(Model model, JsonNode results, String textStructElementUri) {
+	protected void rdfizeAnnotations(Model model, JsonNode results, String textStructElementUri) {
 
         for (JsonNode result : results) {
             // Get the details for the class that was found in the annotation and print
@@ -162,7 +173,7 @@ public class NcboAnnotator extends OaAnnotator{
 	 * @param props the name of the properties
 	 * @return the text representation of the JSON node as property value
 	 */
-	private String getClassDetail(JsonNode classDetails, String ... props) {
+	public String getClassDetail(JsonNode classDetails, String ... props) {
 		
 		JsonNode node = null;
 		for (String prop : props) {
@@ -239,10 +250,10 @@ public class NcboAnnotator extends OaAnnotator{
         return result;
     }
     
-    private static JsonNode jsonToNode(String json) {
+    public static JsonNode jsonToNode(String json) {
         JsonNode root = null;
         try {
-            root = mapper.readTree(json);
+            root = MAPPER.readTree(json);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -251,7 +262,7 @@ public class NcboAnnotator extends OaAnnotator{
         return root;
     }
     
-    private static String get(String urlToGet) {
+    public static String get(String urlToGet) {
         URL url;
         HttpURLConnection conn;
         BufferedReader rd;

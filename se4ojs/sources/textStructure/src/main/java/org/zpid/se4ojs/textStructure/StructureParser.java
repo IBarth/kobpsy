@@ -227,7 +227,7 @@ public class StructureParser {
 	}
 	
 	private BOParagraph createParagraph(Element p, List<BOStructureElement> container, int paraCount, String language) {
-		BOParagraph paragraph = new BOParagraph(paraCount, p.getText(), language);
+		BOParagraph paragraph = new BOParagraph(paraCount, p.getValue(), language);
 		container.add(paragraph);
 		return paragraph;
 	}
