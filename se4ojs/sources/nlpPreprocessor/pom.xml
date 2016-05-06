@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.zpid.psychopen.dkpro</groupId>
+	<artifactId>nlpPreprocessor</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>NLP Preprocessor</name>
+
+	<parent>
+		<groupId>org.zpid.se4ojs</groupId>
+		<artifactId>se4ojs-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+		<dkpro.core.version>1.7.0</dkpro.core.version>
+		<dkpro.wsd.version>1.2.0</dkpro.wsd.version>
+		<zpid.se4ojs.version>1.0-SNAPSHOT</zpid.se4ojs.version>
+		<!-- uimafit.version>2.1.0</uimafit.version -->
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+				<artifactId>de.tudarmstadt.ukp.dkpro.core-gpl</artifactId>
+				<version>${dkpro.core.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>de.tudarmstadt.ukp.dkpro.wsd</groupId>
+				<artifactId>de.tudarmstadt.ukp.dkpro.wsd.core</artifactId>
+				<version>${dkpro.wsd.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.io.text-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.metadata-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimafit-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-core</artifactId>
+		</dependency>		
+		<!-- required for WSD -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.wsd</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.wsd.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.wsd</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.wsd.si.wordnet</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.wsd</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.wsd.graphconnectivity</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.wsd</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.wsd.si.lsr</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.zpid.se4ojs</groupId>
+			<artifactId>annotation-ncbo</artifactId>
+			<version>${zpid.se4ojs.version}</version>
+		</dependency>
+		
+		<!-- testing -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>ukp-oss-releases</id>
+			<url>http://zoidberg.ukp.informatik.tu-darmstadt.de/artifactory/public-releases</url>
+		</repository>
+	</repositories>
+</project>

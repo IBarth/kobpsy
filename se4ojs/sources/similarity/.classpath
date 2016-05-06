@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar" sourcepath="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.api-asl/2.1.0/dkpro.similarity.algorithms.api-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.api-asl/2.1.0/dkpro.similarity.algorithms.api-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-document-annotation/2.4.2/uimaj-document-annotation-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-document-annotation/2.4.2/uimaj-document-annotation-2.4.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-core/2.4.2/uimaj-core-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-core/2.4.2/uimaj-core-2.4.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar" sourcepath="M2_REPO/junit/junit/4.11/junit-4.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/uima/uimafit-core/2.0.0/uimafit-core-2.0.0.jar" sourcepath="M2_REPO/org/apache/uima/uimafit-core/2.0.0/uimafit-core-2.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2.jar" sourcepath="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.lexical-asl/2.1.0/dkpro.similarity.algorithms.lexical-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.lexical-asl/2.1.0/dkpro.similarity.algorithms.lexical-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/collections/google-collections/1.0/google-collections-1.0.jar" sourcepath="M2_REPO/com/google/collections/google-collections/1.0/google-collections-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.vsm-asl/2.1.0/dkpro.similarity.algorithms.vsm-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.algorithms.vsm-asl/2.1.0/dkpro.similarity.algorithms.vsm-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.uima.core-asl/2.1.0/dkpro.similarity.uima.core-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.uima.core-asl/2.1.0/dkpro.similarity.uima.core-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.uima.api-asl/2.1.0/dkpro.similarity.uima.api-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.uima.api-asl/2.1.0/dkpro.similarity.uima.api-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.featurepath-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.featurepath-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.featurepath-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.featurepath-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.metadata-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.metadata-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.metadata-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.metadata-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.resources-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.resources-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.resources-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.resources-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/tukaani/xz/1.0/xz-1.0.jar" sourcepath="M2_REPO/org/tukaani/xz/1.0/xz-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-model/3.0.5/maven-model-3.0.5.jar" sourcepath="M2_REPO/org/apache/maven/maven-model/3.0.5/maven-model-3.0.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ivy/ivy/2.3.0/ivy-2.3.0.jar" sourcepath="M2_REPO/org/apache/ivy/ivy/2.3.0/ivy-2.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.parameter-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.parameter-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.parameter-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.parameter-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/lexsemresource/de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl/0.8.0/de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl-0.8.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/lexsemresource/de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl/0.8.0/de.tudarmstadt.ukp.dkpro.lexsemresource.api-asl-0.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/lexsemresource/de.tudarmstadt.ukp.dkpro.lexsemresource.core-asl/0.8.0/de.tudarmstadt.ukp.dkpro.lexsemresource.core-asl-0.8.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/lexsemresource/de.tudarmstadt.ukp.dkpro.lexsemresource.core-asl/0.8.0/de.tudarmstadt.ukp.dkpro.lexsemresource.core-asl-0.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar" sourcepath="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar" sourcepath="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sleepycat/je/4.0.92/je-4.0.92.jar" sourcepath="M2_REPO/com/sleepycat/je/4.0.92/je-4.0.92-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.8.1/ant-1.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.8.1/ant-launcher-1.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/lab/de.tudarmstadt.ukp.dkpro.lab.core/0.10.0/de.tudarmstadt.ukp.dkpro.lab.core-0.10.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/lab/de.tudarmstadt.ukp.dkpro.lab.core/0.10.0/de.tudarmstadt.ukp.dkpro.lab.core-0.10.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-math/2.1/commons-math-2.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-math/2.1/commons-math-2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.1.4.RELEASE/spring-tx-3.1.4.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-tx/3.1.4.RELEASE/spring-tx-3.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/safehaus/jug/jug/2.0.0/jug-2.0.0-asl.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/json/json/20090211/json-20090211.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jfree/jcommon/1.0.16/jcommon-1.0.16.jar" sourcepath="M2_REPO/jfree/jcommon/1.0.16/jcommon-1.0.16-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar" sourcepath="M2_REPO/net/sf/opencsv/opencsv/2.0/opencsv-2.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/poi/poi/3.6/poi-3.6.jar" sourcepath="M2_REPO/org/apache/poi/poi/3.6/poi-3.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-svggen/1.7/batik-svggen-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-svggen/1.7/batik-svggen-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-awt-util/1.7/batik-awt-util-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-awt-util/1.7/batik-awt-util-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-util/1.7/batik-util-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-util/1.7/batik-util-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" sourcepath="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-dom/1.7/batik-dom-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-dom/1.7/batik-dom-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-css/1.7/batik-css-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-css/1.7/batik-css-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-ext/1.7/batik-ext-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-ext/1.7/batik-ext-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-xml/1.7/batik-xml-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-xml/1.7/batik-xml-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xalan/xalan/2.6.0/xalan-2.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-gvt/1.7/batik-gvt-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-gvt/1.7/batik-gvt-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-bridge/1.7/batik-bridge-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-bridge/1.7/batik-bridge-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-anim/1.7/batik-anim-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-anim/1.7/batik-anim-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-parser/1.7/batik-parser-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-parser/1.7/batik-parser-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-svg-dom/1.7/batik-svg-dom-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-svg-dom/1.7/batik-svg-dom-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/fop/0.95/fop-0.95.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-transcoder/1.7/batik-transcoder-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-transcoder/1.7/batik-transcoder-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-extension/1.7/batik-extension-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-extension/1.7/batik-extension-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/avalon/framework/avalon-framework-api/4.3.1/avalon-framework-api-4.3.1.jar" sourcepath="M2_REPO/org/apache/avalon/framework/avalon-framework-api/4.3.1/avalon-framework-api-4.3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/avalon/framework/avalon-framework-impl/4.3.1/avalon-framework-impl-4.3.1.jar" sourcepath="M2_REPO/org/apache/avalon/framework/avalon-framework-impl/4.3.1/avalon-framework-impl-4.3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/wcohen/ss/secondstring/20060615/secondstring-20060615.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.frequency-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.frequency-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.frequency-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.frequency-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/pcj/pcj/1.2/pcj-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.frequency-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.frequency-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.frequency-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.frequency-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/jweb1t/com.googlecode.jweb1t/1.3.0/com.googlecode.jweb1t-1.3.0.jar" sourcepath="M2_REPO/com/googlecode/jweb1t/com.googlecode.jweb1t/1.3.0/com.googlecode.jweb1t-1.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/edu/berkeley/nlp/berkeleylm/1.1.2/berkeleylm-1.1.2.jar" sourcepath="M2_REPO/edu/berkeley/nlp/berkeleylm/1.1.2/berkeleylm-1.1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.toolbox-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.toolbox-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.toolbox-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.toolbox-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.treetagger-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.treetagger-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.treetagger-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.treetagger-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/annolab/tt4j/org.annolab.tt4j/1.1.1/org.annolab.tt4j-1.1.1.jar" sourcepath="M2_REPO/org/annolab/tt4j/org.annolab.tt4j/1.1.1/org.annolab.tt4j-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.syntax-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.io-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.io-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.io-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.io-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.negra-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.negra-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.negra-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.negra-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.penntree-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.penntree-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.penntree-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.penntree-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.testing-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.testing-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.testing-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.testing-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.semantics-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.semantics-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.semantics-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.semantics-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.ner-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.ner-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.ner-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.ner-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.imscwb-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.imscwb-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.imscwb-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.imscwb-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.ngrams-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.ngrams-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.ngrams-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.ngrams-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.textcat-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.textcat-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.textcat-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.textcat-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/knallgrau/utils/textcat/1.0.1/textcat-1.0.1.jar" sourcepath="M2_REPO/org/knallgrau/utils/textcat/1.0.1/textcat-1.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/ibm/icu/icu4j/4.0.1/icu4j-4.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.tokit-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.tokit-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.tokit-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.tokit-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar" sourcepath="M2_REPO/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar" sourcepath="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.tei-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.tei-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.tei-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.tei-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.xml-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.xml-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.xml-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.xml-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.structure-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.structure-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.api.structure-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.api.structure-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/woodstox-core-asl/4.0.6/woodstox-core-asl-4.0.6.jar" sourcepath="M2_REPO/org/codehaus/woodstox/woodstox-core-asl/4.0.6/woodstox-core-asl-4.0.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/stax2-api/3.0.1/stax2-api-3.0.1.jar" sourcepath="M2_REPO/org/codehaus/woodstox/stax2-api/3.0.1/stax2-api-3.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.text-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.text-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.io.text-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.io.text-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar" sourcepath="M2_REPO/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" sourcepath="M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.opennlp-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.opennlp-asl-1.5.0.jar" sourcepath="M2_REPO/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.opennlp-asl/1.5.0/de.tudarmstadt.ukp.dkpro.core.opennlp-asl-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/opennlp/opennlp-tools/1.5.3/opennlp-tools-1.5.3.jar" sourcepath="M2_REPO/org/apache/opennlp/opennlp-tools/1.5.3/opennlp-tools-1.5.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/opennlp/opennlp-maxent/3.0.3/opennlp-maxent-3.0.3.jar" sourcepath="M2_REPO/org/apache/opennlp/opennlp-maxent/3.0.3/opennlp-maxent-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/jwordnet/jwnl/1.3.3/jwnl-1.3.3.jar" sourcepath="M2_REPO/net/sf/jwordnet/jwnl/1.3.3/jwnl-1.3.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dkpro/similarity/dkpro.similarity.uima.io-asl/2.1.0/dkpro.similarity.uima.io-asl-2.1.0.jar" sourcepath="M2_REPO/dkpro/similarity/dkpro.similarity.uima.io-asl/2.1.0/dkpro.similarity.uima.io-asl-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jdom/jdom/1.0/jdom-1.0.jar" sourcepath="M2_REPO/jdom/jdom/1.0/jdom-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xom/xom/1.0/xom-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar" sourcepath="M2_REPO/xml-resolver/xml-resolver/1.2/xml-resolver-1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" sourcepath="M2_REPO/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar" sourcepath="M2_REPO/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar" sourcepath="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar" sourcepath="M2_REPO/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-api-mockito/1.6.2/powermock-api-mockito-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-api-mockito/1.6.2/powermock-api-mockito-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar" sourcepath="M2_REPO/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.jar" sourcepath="M2_REPO/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
