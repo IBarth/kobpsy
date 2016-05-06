@@ -20,8 +20,9 @@
 		<module>common</module>
 		<module>textStructure</module>
 		<module>annotation-ncbo</module>
-		<module>annotation-umls</module>
 		<module>annotation-common</module>
+		<module>annotationValidator</module>
+		<module>similarity</module>		
 	</modules>
 	<build>
 		<pluginManagement>

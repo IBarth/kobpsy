@@ -4,30 +4,28 @@ import java.util.NoSuchElementException;
 
 public enum Prefix {
 	
-    AO("http://purl.org/ao/core/", "ao"),
+	/** Namespace for representing content in RDF. */
+    CNT("http://www.w3.org/2011/content#", "cnt"),
 	
-	AOA ("http://purl.org/ao/annotea/", "aoa"),
-    
-    AOS ("http://purl.org/ao/selectors/", "aos"),
-    
-    AOT ("http://purl.org/ao/types/", "aot"),
-    
-    BIOTEA ("http://www.biotea.ws/ontology/ao_biotea.owl#", "biotea"),
-    
 	DC("http://purl.org/dc/elements/1.1/", "dc"),
 
 	DCTERMS("http://purl.org/dc/terms/", "dcterms"),
 	
 	DOCO("http://purl.org/spar/doco/", "doco"),
 	
+	FOAF("http://xmlns.com/foaf/0.1/", "foaf"),
+	
     FRBR("http://purl.org/vocab/frbr/core#", "frbr"),
-	// Content in RDF
+    
+    /** Namespace for the Open Annotation ontology. */
+    OA("http://www.w3.org/ns/oa#", "oa"),
+	
 	OWL("http://www.w3.org/2002/07/owl#", "owl"),
 	
     PAV("http://purl.org/pav/", "pav"),
     
 	PO ("http://www.essepuntato.it/2008/12/pattern#", "po"),
-	// PROV
+
 	PROV("http://www.w3.org/ns/prov#", "prov"),
 
 	PSYNDEX("http://www.zpid.de/psyndex#", "psyndex"),

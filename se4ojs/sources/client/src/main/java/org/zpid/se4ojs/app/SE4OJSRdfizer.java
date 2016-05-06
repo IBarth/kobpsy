@@ -1,6 +1,7 @@
 package org.zpid.se4ojs.app;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -16,8 +17,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import org.apache.log4j.Logger;
 import org.ontoware.rdf2go.exception.ModelRuntimeException;
-import org.zpid.se4ojs.textStructure.bo.StructureElement;
+import org.zpid.se4ojs.textStructure.bo.BOStructureElement;
+
 /**
+ * Main class of the se4ojs tool.
+ * 
  * @author barth
  *
  */
@@ -108,7 +112,7 @@ public class SE4OJSRdfizer {
 	 * @throws IOException
 	 * @throws ModelRuntimeException
 	 */
-	public static void main(String[] args) throws ModelRuntimeException,
+	public static void main(String... args) throws ModelRuntimeException,
 			IOException {
 		long startTime = System.currentTimeMillis();
 
@@ -230,7 +234,7 @@ public class SE4OJSRdfizer {
 	void doProcess(final Path path, final SE4OJSAccessHelper helper) {
 		try {
 			CountDownLatch doneSignal = null;
-			List<StructureElement> topLevelElements = null;
+			List<BOStructureElement> topLevelElements = null;
 			for (ProcessingTask task : processingTasks) {
 				switch (task) {
 				case RDF:
@@ -289,7 +293,7 @@ public class SE4OJSRdfizer {
 	}
 	
 	private void annotate(SE4OJSAccessHelper helper, File file,
-			String outputDir, List<StructureElement> topLevelElements,
+			String outputDir, List<BOStructureElement> topLevelElements,
 			ProcessingTask task, CountDownLatch doneSignal) {
 		
 		AnnotationTask annotationTask = 
@@ -312,13 +316,13 @@ class AnnotationTask implements Runnable {
 	SE4OJSAccessHelper helper;
 	File paper;
 	private String outputDir;
-	private List<StructureElement> structureElements;
+	private List<BOStructureElement> structureElements;
 	private Exception exception;
 	private ProcessingTask processingTask;
 	private CountDownLatch doneSignal;
 	
 	public AnnotationTask(SE4OJSAccessHelper helper, File file,
-			String outputDir, List<StructureElement> structureElements,
+			String outputDir, List<BOStructureElement> structureElements,
 			ProcessingTask processingTask, CountDownLatch doneSignal) {
 		
 		this.helper = helper;
@@ -334,9 +338,6 @@ class AnnotationTask implements Runnable {
 		try {
 			if (processingTask.equals(ProcessingTask.NCBO_ANNOTATOR)) {
 				helper.annotateFileWithNCBOAnnotator(paper, structureElements, outputDir);			
-			}
-			if (processingTask.equals(ProcessingTask.UMLS_ANNOTATOR)) {
-				helper.annotateFileWithUmlsAnnotator(paper, structureElements, outputDir);			
 			}
 			doneSignal.countDown();
 		} catch (IOException e) {

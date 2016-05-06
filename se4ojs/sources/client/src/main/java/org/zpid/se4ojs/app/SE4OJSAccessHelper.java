@@ -19,11 +19,10 @@ import org.apache.log4j.Logger;
 import org.jdom2.JDOMException;
 import org.xml.sax.SAXException;
 import org.zpid.se4ojs.annotation.ncbo.NcboAnnotator;
-import org.zpid.se4ojs.annotation.umls.UmlsAnnotator;
 import org.zpid.se4ojs.refStructuring.ReferenceStructurer;
 import org.zpid.se4ojs.spar.Jats2Spar;
 import org.zpid.se4ojs.textStructure.StructureTransformer;
-import org.zpid.se4ojs.textStructure.bo.StructureElement;
+import org.zpid.se4ojs.textStructure.bo.BOStructureElement;
 /**
  * Helper class for the rdfization of PsychOpen articles.
  * 
@@ -36,7 +35,6 @@ public class SE4OJSAccessHelper {
 
 	private Path directory;
 	private final Object ncboLock = new Object();
-	private final Object umlsLock = new Object();
 
 	//The system file separator. 
 	static final String FILE_SEPARATOR = System.getProperty("file.separator");
@@ -112,7 +110,7 @@ public class SE4OJSAccessHelper {
 	 * @throws IOException 
 	 * @throws Exception
 	 */
-	public void annotateFileWithNCBOAnnotator(File paper, List<StructureElement> topLevelElements, String outputDir) throws IOException {
+	public void annotateFileWithNCBOAnnotator(File paper, List<BOStructureElement> topLevelElements, String outputDir) throws IOException {
 		    synchronized(ncboLock) { 
 				logger.info("Starting annotation with NCBO Annotator for paper: " + paper);
 				String ontologyProperties = getOntologyProperties(NCBO);
@@ -123,14 +121,15 @@ public class SE4OJSAccessHelper {
 		    } 
 		}
 
-	public List<StructureElement> rdfizeSections(File paper, String outputDir) throws JDOMException, IOException {
+	public List<BOStructureElement> rdfizeSections(File paper, String outputDir) throws JDOMException, IOException {
 		StructureTransformer structureTransformer = new StructureTransformer(Config.getBaseURI(), Config.getLanguages());
 		String out = paper.toPath().getFileName().toString().replace(".xml", "-textStructure.rdf");
 		out = out.replace(".XML", "-textStructure.rdf");
 		return structureTransformer.transform(paper, Paths.get(outputDir, out));
 	}
 
-	public void annotateFileWithUmlsAnnotator(File paper, List<StructureElement> topLevelElements, String outputDir) throws IOException {
+	/* Currently unsupported. 
+	
 	    synchronized(umlsLock) { 
 			logger.info("Starting annotation with UMLS Annotator for paper: " + paper);
 			String ontologyProperties = getOntologyProperties(UMLS);
@@ -138,9 +137,9 @@ public class SE4OJSAccessHelper {
 			UmlsAnnotator umlsAnnotator = new UmlsAnnotator(ontologyProperties);
 		    umlsAnnotator.annotate(Config.getBaseURI(), paper, topLevelElements, outputDir);
 	    }
-	}
+	} */
 
-	private String getOntologyProperties(String annotator) {
+	protected String getOntologyProperties(String annotator) {
 		String ontos = null;
 		Properties properties = new Properties();
 		InputStream inputStream = getClass().getClassLoader().getResourceAsStream("config.properties");

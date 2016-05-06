@@ -2,15 +2,17 @@ package org.zpid.se4ojs.annotation;
 
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.ontoware.rdf2go.model.Model;
 import org.zpid.se4ojs.textStructure.bo.BOParagraph;
 import org.zpid.se4ojs.textStructure.bo.BOSection;
-import org.zpid.se4ojs.textStructure.bo.StructureElement;
+import org.zpid.se4ojs.textStructure.bo.BOStructureElement;
 
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.shared.uuid.JenaUUID;
 
 
 public class AnnotationUtils {
@@ -19,11 +21,11 @@ public class AnnotationUtils {
 	static final String URI_PREFIX_ZPID = "http://zpid.de";
 	static final String URI_INFIX_DOI = "doi";
 	static final String URI_SUFFIX_TEXTUAL_ENTITY = "textual-entity";
-	public static final String CHAR_NOT_ALLOWED = "[^A-Za-z0-9]";
+	public static final String CHAR_NOT_ALLOWED = "[^@A-Za-z0-9#-_]";
 	
-	private static Logger log = Logger.getLogger(AnnotationUtils.class);
+	private Logger log = Logger.getLogger(AnnotationUtils.class);
 	
-	public static void createLiteralTriple(String subject,
+	public void createLiteralTriple(String subject,
 			String predicate, String object, Model model) {
 		model.addStatement(
 				model.createURI(subject),
@@ -40,7 +42,7 @@ public class AnnotationUtils {
 	 * @param resource the datatype
 	 * @param model
 	 */
-	public static void createLiteralTriple(String subject,
+	public void createLiteralTriple(String subject,
 			String predicate, String object,
 			Resource resource, Model model) {
 		model.addStatement(
@@ -53,11 +55,11 @@ public class AnnotationUtils {
 				new StringBuilder(p.getURL()).append(pred).toString();
 	}
 	
-	public static String createUriString(String... uriParts) {
+	public String createUriString(String... uriParts) {
 		StringBuilder sb = new StringBuilder();
 		for (String part : uriParts) {
 			sb.append(part);
-			if(!part.endsWith("/")){
+			if(!part.endsWith("/") && !part.endsWith("#")){
 				sb.append("/");
 			}
 		}
@@ -67,13 +69,13 @@ public class AnnotationUtils {
 		return sb.toString();
 	}
 	
-	public static void setNamespaces(Model model) {
+	public void setNamespaces(Model model) {
 		for (Prefix p : Prefix.values()) {
 			model.setNamespace(p.getNS(), p.getURL());
 		}
 	}
 	
-	static String getArticleUri(Document document, String baseUri) {
+    String getArticleUri(Document document, String baseUri) {
 		Element rootElement = document.getRootElement();
 		List<Element> articleIds = rootElement.getChild("front").getChild("article-meta").getChildren("article-id");
 		for (Element articleId : articleIds) {
@@ -85,7 +87,7 @@ public class AnnotationUtils {
 		return null;
 	}
 	
-	static String createSubElementUri(StructureElement se, String articleUri, String parentUri) {
+	String createSubElementUri(BOStructureElement se, String articleUri, String parentUri) {
 		if (se instanceof BOSection) {
 			return new StringBuffer(articleUri).append("/").append(se.getUriTitle()).toString();
 		} else if (se instanceof BOParagraph) {
@@ -94,19 +96,38 @@ public class AnnotationUtils {
 		return null;
 	}
 	
-	private static String createParagraphFullUriTitle(String parentUri,
+	private String createParagraphFullUriTitle(String parentUri,
 			BOParagraph p) {
 		return new StringBuilder(parentUri).append("_").append(p.getUriTitle()).toString();
 	}
 	
-	static String urlEncode(String s) {
-		String uri = s.replaceAll(CHAR_NOT_ALLOWED, "-");
-		return uri.replaceAll("[-]+", "-");
+	/**
+	 * Encodes the passed in string into a valid url.
+	 * Characters not allowed in URIs are replaced by underscores.
+	 * If more than one fragment identifier (the '#' character) is present,
+	 * only the last one is retained and the others are replaced by underscores. 
+	 * 
+	 * @param s the string to convert to a valid url
+	 * @return the converted string
+	 */
+	String urlEncode(String s) {
+		String uri = s.replaceAll(CHAR_NOT_ALLOWED, "_");
+		if (StringUtils.lastOrdinalIndexOf(uri, "#", 2) != -1) {
+			String fragment = StringUtils.substringAfterLast(uri, "#");
+			String base = StringUtils.substringBeforeLast(uri, "#");
+			base = base.replaceAll("#", "_");
+			uri = new StringBuilder(base).append("#").append(fragment).toString();
+		}
+		return uri.replaceAll("[_]+", "_");
 	}
 	
-	public static void createResourceTriple(String subject,
+	public void createResourceTriple(String subject,
 			String predicate, String object, Model model) {
 		model.addStatement(model.createURI(subject), model.createURI(predicate), model.createURI(object));
+	}
+
+	public String generateUuidUri() {
+		return new StringBuilder("urn:").append(JenaUUID.generate().asURI()).toString();
 	}
 
 }
