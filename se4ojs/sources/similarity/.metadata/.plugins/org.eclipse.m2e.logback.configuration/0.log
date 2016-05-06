@@ -1,0 +1,329 @@
+2016-02-26 14:01:40,773 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/pom.xml.
+2016-02-26 14:01:40,790 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-asl/pom.xml.
+2016-02-26 14:01:41,486 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-api-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-api-asl/pom.xml.
+2016-02-26 14:01:41,734 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-core-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-core-asl/pom.xml.
+2016-02-26 14:01:42,061 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-lexical-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-asl/pom.xml.
+2016-02-26 14:01:42,481 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-sound-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-sound-asl/pom.xml.
+2016-02-26 14:01:42,752 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-structure-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-structure-asl/pom.xml.
+2016-02-26 14:01:43,031 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-style-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-style-asl/pom.xml.
+2016-02-26 14:01:44,481 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-vsm-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-vsm-asl/pom.xml.
+2016-02-26 14:01:44,806 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-wikipedia-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-wikipedia-asl/pom.xml.
+2016-02-26 14:01:45,079 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-api-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-api-asl/pom.xml.
+2016-02-26 14:01:45,187 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-core-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-asl/pom.xml.
+2016-02-26 14:01:45,313 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-data-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-data-asl/pom.xml.
+2016-02-26 14:01:45,422 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-io-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-io-asl/pom.xml.
+2016-02-26 14:01:45,564 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-vsm-asl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-vsm-asl/pom.xml.
+2016-02-26 14:01:45,662 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-gpl/pom.xml.
+2016-02-26 14:01:45,790 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-lexical-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-gpl/pom.xml.
+2016-02-26 14:01:45,907 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-lexsub-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexsub-gpl/pom.xml.
+2016-02-26 14:01:46,065 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-ml-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-ml-gpl/pom.xml.
+2016-02-26 14:01:46,187 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-algorithms-sspace-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-sspace-gpl/pom.xml.
+2016-02-26 14:01:46,316 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-example-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-example-gpl/pom.xml.
+2016-02-26 14:01:46,500 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-ml-core-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-ml-core-gpl/pom.xml.
+2016-02-26 14:01:46,590 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-ml-io-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-ml-io-gpl/pom.xml.
+2016-02-26 14:01:46,684 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dkpro.similarity:dkpro-similarity-uima-core-gpl:2.3.0-SNAPSHOT @ /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-gpl/pom.xml.
+2016-02-26 14:01:49,191 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-api-asl/src/main/java
+2016-02-26 14:01:49,192 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-uima-api-asl/src/main/resources
+2016-02-26 14:01:49,192 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-api-asl/src/test/java
+2016-02-26 14:01:49,308 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-io-asl/src/main/java
+2016-02-26 14:01:49,309 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-io-asl/src/test/java
+2016-02-26 14:01:49,506 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-ml-io-gpl/src/main/java
+2016-02-26 14:01:49,507 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-ml-io-gpl/src/test/java
+2016-02-26 14:01:49,556 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-api-asl/src/main/java
+2016-02-26 14:01:49,557 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-api-asl/src/test/java
+2016-02-26 14:01:49,637 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-core-asl/src/main/java
+2016-02-26 14:01:49,637 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-core-asl/src/test/java
+2016-02-26 14:01:49,721 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-vsm-asl/src/main/java
+2016-02-26 14:01:49,721 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-vsm-asl/src/test/java
+2016-02-26 14:01:49,722 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-vsm-asl/src/test/resources
+2016-02-26 14:01:49,888 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexical-asl/src/main/java
+2016-02-26 14:01:49,889 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexical-asl/src/test/java
+2016-02-26 14:01:51,823 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-structure-asl/src/main/java
+2016-02-26 14:01:51,824 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-structure-asl/src/main/resources
+2016-02-26 14:01:51,824 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-structure-asl/src/test/java
+2016-02-26 14:01:52,517 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-style-asl/src/main/java
+2016-02-26 14:01:52,518 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-style-asl/src/main/resources
+2016-02-26 14:01:52,518 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-style-asl/src/test/java
+2016-02-26 14:01:52,781 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-ml-core-gpl/src/main/java
+2016-02-26 14:01:52,781 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-ml-core-gpl/src/test/java
+2016-02-26 14:01:52,818 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-ml-gpl/src/main/java
+2016-02-26 14:01:52,818 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-ml-gpl/src/test/java
+2016-02-26 14:01:52,842 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-core-gpl/src/main/java
+2016-02-26 14:01:52,843 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-core-gpl/src/test/java
+2016-02-26 14:01:52,868 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-example-gpl/src/main/java
+2016-02-26 14:01:52,868 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-example-gpl/src/main/resources
+2016-02-26 14:01:52,869 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-example-gpl/src/test/java
+2016-02-26 14:01:52,927 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-sspace-gpl/src/main/java
+2016-02-26 14:01:52,927 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-sspace-gpl/src/test/java
+2016-02-26 14:01:52,927 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-sspace-gpl/src/test/resources
+2016-02-26 14:01:52,976 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-sound-asl/src/main/java
+2016-02-26 14:01:52,976 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-sound-asl/src/main/resources
+2016-02-26 14:01:52,977 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-sound-asl/src/test/java
+2016-02-26 14:01:52,977 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-algorithms-sound-asl/src/test/resources
+2016-02-26 14:01:53,046 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-core-asl/src/main/java
+2016-02-26 14:01:53,046 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-core-asl/src/test/java
+2016-02-26 14:01:53,100 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexsub-gpl/src/main/java
+2016-02-26 14:01:53,100 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexsub-gpl/src/test/java
+2016-02-26 14:01:53,309 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexical-gpl/src/main/java
+2016-02-26 14:01:53,310 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-lexical-gpl/src/test/java
+2016-02-26 14:01:53,371 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-data-asl/src/main/java
+2016-02-26 14:01:53,372 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-uima-data-asl/src/main/resources
+2016-02-26 14:01:53,374 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-data-asl/src/test/java
+2016-02-26 14:01:53,408 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-vsm-asl/src/main/java
+2016-02-26 14:01:53,408 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-uima-vsm-asl/src/test/java
+2016-02-26 14:01:53,408 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dkpro-similarity-uima-vsm-asl/src/test/resources
+2016-02-26 14:01:54,036 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-wikipedia-asl/src/main/java
+2016-02-26 14:01:54,038 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dkpro-similarity-algorithms-wikipedia-asl/src/test/java
+2016-02-26 14:01:54,132 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 24 project(s) in 25 sec
+2016-02-26 14:01:57,838 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:57,861 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:01:57,864 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:57,864 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-api-asl/src/main/resources
+2016-02-26 14:01:57,866 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:57,866 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-api-asl/src/test/resources
+2016-02-26 14:01:59,800 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:59,800 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:01:59,801 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:59,802 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-core-asl/src/main/resources
+2016-02-26 14:01:59,803 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:01:59,803 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-core-asl/src/test/resources
+2016-02-26 14:02:00,217 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,218 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:00,220 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,220 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-gpl/src/main/resources
+2016-02-26 14:02:00,221 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,222 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-gpl/src/test/resources
+2016-02-26 14:02:00,708 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,709 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:00,710 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,711 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-26 14:02:00,726 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:00,727 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-26 14:02:02,051 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:02,051 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:02,054 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:02,055 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-core-gpl/src/main/resources
+2016-02-26 14:02:02,056 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:02,056 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-core-gpl/src/test/resources
+2016-02-26 14:02:03,148 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,149 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:03,151 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,151 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-ml-gpl/src/main/resources
+2016-02-26 14:02:03,153 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,154 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-ml-gpl/src/test/resources
+2016-02-26 14:02:03,671 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,671 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:03,673 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,673 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-26 14:02:03,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:03,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-api-asl/src/test/resources
+2016-02-26 14:02:04,618 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:04,619 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:04,620 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:04,620 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-asl/src/main/resources
+2016-02-26 14:02:04,621 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:04,621 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-asl/src/test/resources
+2016-02-26 14:02:05,542 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:05,542 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:05,544 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:05,544 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-wikipedia-asl/src/main/resources
+2016-02-26 14:02:05,545 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:05,545 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-wikipedia-asl/src/test/resources
+2016-02-26 14:02:06,555 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:06,555 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:06,558 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:06,558 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-26 14:02:06,560 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:06,560 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-style-asl/src/test/resources
+2016-02-26 14:02:07,223 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,224 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:07,226 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,226 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-26 14:02:07,228 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,228 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-structure-asl/src/test/resources
+2016-02-26 14:02:07,715 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,715 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:07,716 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,717 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexsub-gpl/src/main/resources
+2016-02-26 14:02:07,718 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:07,718 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexsub-gpl/src/test/resources
+2016-02-26 14:02:08,377 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:08,377 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:08,378 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:08,379 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-vsm-asl/src/main/resources
+2016-02-26 14:02:08,380 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:08,382 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2016-02-26 14:02:09,033 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,034 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:09,037 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,038 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-sspace-gpl/src/main/resources
+2016-02-26 14:02:09,039 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,040 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2016-02-26 14:02:09,704 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,704 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:09,706 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,706 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-asl/src/main/resources
+2016-02-26 14:02:09,708 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,708 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-asl/src/test/resources
+2016-02-26 14:02:09,913 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,914 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:09,918 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,918 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-gpl/src/main/resources
+2016-02-26 14:02:09,921 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:09,921 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-gpl/src/test/resources
+2016-02-26 14:02:10,081 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,082 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:10,083 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,111 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 137 resources
+2016-02-26 14:02:10,164 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,164 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-data-asl/src/test/resources
+2016-02-26 14:02:10,673 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,674 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:10,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-io-asl/src/main/resources
+2016-02-26 14:02:10,676 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,676 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-io-asl/src/test/resources
+2016-02-26 14:02:10,899 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,900 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:10,902 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,902 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-io-gpl/src/main/resources
+2016-02-26 14:02:10,903 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:10,903 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-io-gpl/src/test/resources
+2016-02-26 14:02:11,522 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:11,522 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:11,523 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:11,534 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 38 resources
+2016-02-26 14:02:11,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:11,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-example-gpl/src/test/resources
+2016-02-26 14:02:12,019 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:12,019 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-26 14:02:12,020 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:12,021 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-vsm-asl/src/main/resources
+2016-02-26 14:02:12,022 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-26 14:02:12,022 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-03-09 15:33:18,544 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:18,562 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:18,565 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:18,565 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-api-asl/src/main/resources
+2016-03-09 15:33:18,568 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:18,568 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-api-asl/src/test/resources
+2016-03-09 15:33:19,229 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:19,229 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:19,231 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:19,232 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-core-asl/src/main/resources
+2016-03-09 15:33:19,233 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:19,233 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-core-asl/src/test/resources
+2016-03-09 15:33:20,017 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,019 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:20,021 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,021 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-gpl/src/main/resources
+2016-03-09 15:33:20,023 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,023 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-gpl/src/test/resources
+2016-03-09 15:33:20,417 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,417 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:20,418 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,419 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-09 15:33:20,432 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,433 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-09 15:33:20,685 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,685 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:20,686 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,687 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-core-gpl/src/main/resources
+2016-03-09 15:33:20,688 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:20,688 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-core-gpl/src/test/resources
+2016-03-09 15:33:21,012 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,013 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:21,014 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,015 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-ml-gpl/src/main/resources
+2016-03-09 15:33:21,016 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,016 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-ml-gpl/src/test/resources
+2016-03-09 15:33:21,229 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,229 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:21,231 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,232 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-03-09 15:33:21,238 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,238 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-api-asl/src/test/resources
+2016-03-09 15:33:21,584 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,585 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:21,586 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,586 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-asl/src/main/resources
+2016-03-09 15:33:21,589 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:21,589 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-asl/src/test/resources
+2016-03-09 15:33:22,328 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:22,328 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:22,330 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:22,330 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-wikipedia-asl/src/main/resources
+2016-03-09 15:33:22,331 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:22,331 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-wikipedia-asl/src/test/resources
+2016-03-09 15:33:23,120 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,121 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:23,122 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,123 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-09 15:33:23,125 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,125 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-style-asl/src/test/resources
+2016-03-09 15:33:23,531 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,531 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:23,533 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,533 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-03-09 15:33:23,539 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:23,539 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-structure-asl/src/test/resources
+2016-03-09 15:33:24,108 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:24,109 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:24,110 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:24,110 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexsub-gpl/src/main/resources
+2016-03-09 15:33:24,112 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:24,112 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexsub-gpl/src/test/resources
+2016-03-09 15:33:25,209 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,209 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:25,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-vsm-asl/src/main/resources
+2016-03-09 15:33:25,213 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,214 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2016-03-09 15:33:25,888 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,889 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:25,890 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,890 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-sspace-gpl/src/main/resources
+2016-03-09 15:33:25,891 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:25,893 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2016-03-09 15:33:26,559 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,559 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:26,561 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,561 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-asl/src/main/resources
+2016-03-09 15:33:26,562 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,563 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-algorithms-lexical-asl/src/test/resources
+2016-03-09 15:33:26,816 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,817 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:26,819 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,820 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-gpl/src/main/resources
+2016-03-09 15:33:26,822 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,822 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-core-gpl/src/test/resources
+2016-03-09 15:33:26,944 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,944 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:26,946 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:26,956 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 137 resources
+2016-03-09 15:33:27,031 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,031 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-data-asl/src/test/resources
+2016-03-09 15:33:27,494 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,494 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:27,496 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,496 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-io-asl/src/main/resources
+2016-03-09 15:33:27,497 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,497 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-io-asl/src/test/resources
+2016-03-09 15:33:27,707 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,708 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:27,709 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,709 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-io-gpl/src/main/resources
+2016-03-09 15:33:27,710 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:27,710 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-ml-io-gpl/src/test/resources
+2016-03-09 15:33:28,228 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,228 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:28,230 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,231 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 38 resources
+2016-03-09 15:33:28,265 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,265 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-example-gpl/src/test/resources
+2016-03-09 15:33:28,727 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,727 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-09 15:33:28,728 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,728 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/isa/git/dkpro-similarity/dkpro-similarity-uima-vsm-asl/src/main/resources
+2016-03-09 15:33:28,729 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-09 15:33:28,730 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources

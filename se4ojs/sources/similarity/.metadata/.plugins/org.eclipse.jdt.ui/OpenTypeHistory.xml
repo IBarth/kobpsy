@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=dkpro-similarity-algorithms-api-asl/\/home\/isa\/.m2\/repository\/org\/apache\/uima\/uimafit-core\/2.1.0\/uimafit-core-2.1.0.jar&lt;org.apache.uima.fit.factory(JCasFactory.class[JCasFactory" modifiers="49" timestamp="1450708355000"/>
+<typeInfo handle="=dkpro-similarity-algorithms-api-asl/\/home\/isa\/.m2\/repository\/org\/apache\/uima\/uimaj-core\/2.6.0\/uimaj-core-2.6.0.jar&lt;org.apache.uima.util(ConsumerCasUtils.class[ConsumerCasUtils" modifiers="33" timestamp="1450708355000"/>
+<typeInfo handle="=dkpro-similarity-algorithms-api-asl/\/home\/isa\/.m2\/repository\/org\/apache\/uima\/uimaj-core\/2.6.0\/uimaj-core-2.6.0.jar&lt;org.apache.uima.util(CasCreationUtils.class[CasCreationUtils" modifiers="33" timestamp="1450708355000"/>
+<typeInfo handle="=dkpro-similarity-algorithms-api-asl/\/home\/isa\/.m2\/repository\/org\/apache\/uima\/uimaj-core\/2.6.0\/uimaj-core-2.6.0.jar&lt;org.apache.uima.cas(CAS.class[CAS" modifiers="1537" timestamp="1450708355000"/>
+<typeInfo handle="=dkpro-similarity-algorithms-lexical-asl/src\/main\/java&lt;dkpro.similarity.algorithms.lexical.ngrams{WordNGramContainmentMeasure.java[WordNGramContainmentMeasure" modifiers="1" timestamp="1453997934000"/>
+</typeInfoHistroy>
